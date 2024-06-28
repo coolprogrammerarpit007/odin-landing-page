@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+
+/* ************************************************ */
+/* ************************************************ */
+
+/* End Of Boiler Plate */
+.nav-section{
+    padding: 2rem;
+    /* border: 1px solid red; */
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.nav-container{
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    flex: 3;
+    font-size: 3rem;
+}
+
+.links{
+    /* border: 1px solid orange; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+}
+
+.link{
+    /* border:1px solid sienna; */
+    font-size: 1.5rem;
+}
+
+/* ********************************************************* */
+/* ********************************************************* */
+
+/* End of the navigation Bar */
+
+/* *********************************************************** */
+/* *********************************************************** */
+
+/* Start of the Hero Section */
+.header-section{
+    padding: 2rem;
+    background:#1F2937;
+    color: #fff;
+}
+.header-container{
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 1px solid green; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex: 2;
+}
+
+.title{
+    width: 40%;
+}
+
+.title h3{
+    word-break: break-all;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+
+.hero-text{
+    width: 60%;
+}
+.hero-text p{
+    word-break: break-all;
+    line-height: 1.5;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.header-container .btn{
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    width: 20%;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+
+.header-container .btn:hover{
+    background-color: #fff;
+    color: #3882F6;
+    border: 1px solid #1F2937;
+}
+
+.hero-img{
+    flex: 1;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* ********************************************************* */
+/* ********************************************************* */
+
+/* Styling The Info Section */
+
+.info-section{
+    padding: 2rem;
+}
+
+.info-container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-container .title{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box p{
+    font-size: 1.5rem;
+    width: 50%;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.grid{
+    border: 0.5rem solid #3882F6;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+/* *********************************************** */
+/* *********************************************** */
+
+/* Start  of the Block Quote  */
+
+.quote-section{
+    padding: 2rem;
+    background-color: #E5E7EB;
+    font-size: 3.6rem;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container{
+    height: 50vh;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid green; */
+    position: relative;
+}
+
+.quote-speaker{
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+
+/* ****************************************************** */
+/* ****************************************************** */
+
+/* End of the Quote section */
+.cta-section{
+    padding: 2rem;
+}
+
+.cta-container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.cta{
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 80%;
+    background-color: #3882F6;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cta-text h3{
+    font-size: 2.5rem;
+}
+
+.cta-text p{
+    font-size:1.78rem; 
+}
+
+.cta-btn{
+    background-color: #3882F6;
+    border: 1px solid #fff;
+    color:#fff ;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.cta-btn:hover{
+    background-color: #1F2937;
+    color: #3882F6;
+    border: 1px solid #1F2937;
+}
+
+/* ************************************************ */
+/* ************************************************ */
+
+/* End of the cta */
+
+/* *************************************************** */
+/* *************************************************** */
+
+/* Footer Section */
+
+footer{
+    background-color: #1F2937;
+    color: #fff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
